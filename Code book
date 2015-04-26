@@ -1,0 +1,95 @@
+DATA DICTIONARY - averages_data
+           
+The dataset being used is: Human Activity Recognition Using Smartphones
+Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
+Data Set Information:
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+Attribute Information:
+For each record in the dataset it is provided: 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+
+
+subject 		30 subjects type
+activity		Activity Code
+			1 WALKING
+			2 WALKING_UPSTAIRS
+			3 WALKING_DOWNSTAIRS
+			4 SITTING
+			5 STANDING
+			6 LAYING
+The features of this dataset indicate accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The prefix 't' to denote time.
+	gravity,	BodyAcc,	BodyAccJer,	BodyGyro,	BodyGyroJerk
+	BodyAccMag,	BodyGyroJerkMag,	GravityAccMag
+
+tBodyAcc-mean()-X     		measurements on the mean     
+tBodyAcc-mean()-Y			measurements on the mean
+tBodyAcc-mean()-Z			measurements on the mean
+tBodyAcc-std()-X           standard deviation
+tBodyAcc-std()-Y			standard deviation
+tBodyAcc-std()-Z			standard deviation
+tGravityAcc-mean()-X       measurements on the mean
+tGravityAcc-mean()-Y	    measurements on the mean
+tGravityAcc-mean()-Z		measurements on the mean
+tGravityAcc-std()-X     	standard deviation   
+tGravityAcc-std()-Y		standard deviation
+tGravityAcc-std()-Z 		standard deviation
+tBodyAccJerk-mean()-X     measurements on the mean 
+tBodyAccJerk-mean()-Y 		measurements on the mean
+tBodyAccJerk-mean()-Z 		measurements on the mean
+tBodyAccJerk-std()-X       standard deviation
+tBodyAccJerk-std()-Y		standard deviation
+tBodyAccJerk-std()-Z		standard deviation
+tBodyGyro-mean()-X         measurements on the mean
+tBodyGyro-mean()-Y  		measurements on the mean
+tBodyGyro-mean()-Z  		measurements on the mean
+tBodyGyro-std()-X          standard deviation
+tBodyGyro-std()-Y   		standard deviation
+tBodyGyro-std()-Z   		standard deviation
+tBodyGyroJerk-mean()-X     measurements on the mean
+tBodyGyroJerk-mean()-Y		measurements on the mean
+tBodyGyroJerk-mean()-Z		measurements on the mean
+tBodyGyroJerk-std()-X      standard deviation
+tBodyGyroJerk-std()-Y 		standard deviation
+tBodyGyroJerk-std()-Z 		standard deviation
+tBodyAccMag-mean()         measurements on the mean
+tBodyAccMag-std()   		standard deviation
+tGravityAccMag-mean() 		measurements on the mean
+tGravityAccMag-std()       standard deviation
+tBodyAccJerkMag-mean()		measurements on the mean
+tBodyAccJerkMag-std() 		standard deviation
+tBodyGyroMag-mean()        measurements on the mean
+tBodyGyroMag-std()  		standard deviation
+tBodyGyroJerkMag-mean()    measurements on the mean 
+tBodyGyroJerkMag-std()     standard deviation
+fBodyAcc-mean()-X   		measurements on the mean
+fBodyAcc-mean()-Y   		measurements on the mean
+fBodyAcc-mean()-Z          measurements on the mean
+fBodyAcc-std()-X    		standard deviation
+fBodyAcc-std()-Y    		standard deviation
+fBodyAcc-std()-Z           standard deviation
+fBodyAccJerk-mean()-X 		measurements on the mean
+fBodyAccJerk-mean()-Y 		measurements on the mean
+fBodyAccJerk-mean()-Z      measurements on the mean
+fBodyAccJerk-std()-X		standard deviation
+fBodyAccJerk-std()-Y		standard deviation
+fBodyAccJerk-std()-Z       standard deviation
+fBodyGyro-mean()-X  		measurements on the mean
+fBodyGyro-mean()-Y  		measurements on the mean
+fBodyGyro-mean()-Z         measurements on the mean
+fBodyGyro-std()-X   		standard deviation
+fBodyGyro-std()-Y   		standard deviation
+fBodyGyro-std()-Z          standard deviation
+fBodyAccMag-mean()  		measurements on the mean
+fBodyAccMag-std()   		standard deviation
+fBodyBodyAccJerkMag-mean() measurements on the mean
+fBodyBodyAccJerkMag-std()   standard deviation
+fBodyBodyGyroMag-mean()     measurements on the mean
+fBodyBodyGyroMag-std()     standard deviation
+fBodyBodyGyroJerkMag-mean() measurements on the mean
+fBodyBodyGyroJerkMag-std() standard deviation
