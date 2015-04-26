@@ -2,7 +2,8 @@
 Getting and Cleaning Data Course Project  / 26th April 2015
 
 The purpose of this project is collect data, clean these data and create tidy data set.
-Here are the raw data for this project: 
+
+Here are the link of raw data for this project: 
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
